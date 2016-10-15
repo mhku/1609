@@ -1,6 +1,6 @@
 var FM_CONFIG                   = {
 
-    fmURL : './src/mp3/fm-1.mp3'
+    fmURL : './res/mp3/fm-1.mp3'
 
     };
 (function ( window, FM_CONFIG ) {

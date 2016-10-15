@@ -1,9 +1,9 @@
 @font-face {
     font-family: icon-font;
-    src: url(../src/ttf/iconfont.ttf);
+    res: url(../res/ttf/iconfont.ttf);
 }
 .detailed-content-bg{
-    background: url(../src/fm-bg/fm-bg-1.png);
+    background: url(../res/fm-bg/fm-bg-1.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
     left: .2rem;
     height: .5rem;
     width: 1.08rem;
-    background: url(../src/png/fm-logo.png);
+    background: url(../res/png/fm-logo.png);
     z-index: 10;
 }
 .detailed-content-box{
@@ -151,4 +151,19 @@ section.detailed-user-info {
     color: #fff;
     font-size: .14rem;
     line-height: .2rem;
+}
+#detailed-nav-box{
+    width: 4.5rem;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 20;
+}
+.detailed-nav{
+    float: left;
+    width: 1rem;
+    height: 100%;
+    background: #222629;
 }
