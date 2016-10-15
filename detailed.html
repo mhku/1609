@@ -20,7 +20,7 @@
             <button class="detailed-control-btn">&#xe658;</button>
         </div>
         <section class="detailed-control-plan">
-            <div class="detailed-plan-time">10:00</div>
+            <div class="detailed-plan-time" id="detailed-plan-time">10:00</div>
             <div class="detailed-plan-pathway">
                 <div class="detailed-plan-full" id="detailed-plan-full"></div>
             </div>
@@ -34,7 +34,7 @@
     </ul>
 </section>
 <section class="detailed-about">
-    <img res="./res/jpg/user-header.jpg" alt="用户头像" class="detailed-user-header" />
+    <img src="./res/jpg/user-header.jpg" alt="用户头像" class="detailed-user-header" />
     <section class="detailed-user-info">
         <div>好心情9966</div>
         <div>穷，就是这个味道</div>
@@ -44,10 +44,17 @@
 <section id="detailed-nav-box">
     <nav class="detailed-nav">
         <div class="detailed-user">
-            <img res="./res/jpg/user.jpg" alt="">
+            <img src="./res/jpg/user.jpg" alt="">
+            <div class="detailed-user-label">登录</div>
         </div>
+        <ul class="detailed-nav-list" id="detailed-nav-list">
+            <li data-id="fm-recommend">推荐</li>
+            <li data-id="fm-mood">心情</li>
+            <li data-id="fm-scene">场景</li>
+            <li data-id="fm-anchor">主播</li>
+        </ul>
     </nav>
 </section>
-<script res="./js/keller.js"></script>
+<script src="./js/keller.js"></script>
 </body>
 </html>
