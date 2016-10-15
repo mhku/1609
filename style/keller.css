@@ -1,0 +1,154 @@
+@font-face {
+    font-family: icon-font;
+    src: url(../src/ttf/iconfont.ttf);
+}
+.detailed-content-bg{
+    background: url(../src/fm-bg/fm-bg-1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.detailed-logo{
+    position: absolute;
+    top: .2rem;
+    left: .2rem;
+    height: .5rem;
+    width: 1.08rem;
+    background: url(../src/png/fm-logo.png);
+    z-index: 10;
+}
+.detailed-content-box{
+    position: absolute;
+    z-index: 10;
+    width: 6rem;
+    height: 3rem;
+    background: rgba(0,0,0,0.2);
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    padding: .3rem;
+    border:1px solid #ccc;
+    color: #fff;
+}
+.detailed-content-title{
+    height:  .3rem;
+    line-height: .3rem;
+    font-size: .24rem;
+    font-weight: 100;
+}
+.detailed-content-about{
+    height: .3rem;
+    line-height: .3rem;
+    color: #cccccc;
+}
+.detailed-content-exp{
+    line-height: .20rem;
+    font-size: .14rem;
+}
+.detailed-content-control{
+    margin-top: .1rem;
+    height: .66rem;
+    line-height: .66rem;
+
+}
+.detailed-control-btn {
+    border: transparent;
+    background: transparent;
+    font-family: icon-font;
+    color: #fff;
+    font-size: 0.3rem;
+    vertical-align: middle;
+    margin-right: .2rem;
+    cursor: pointer;
+}
+.detailed-control-box{
+    width: 1.8rem;
+    float: left;
+}
+#detailed-content-play{
+    font-size: .5rem;
+
+}
+.detailed-control-plan{
+    margin-left: 1.8rem;
+    height: 100%;
+}
+.detailed-plan-time{
+    text-align: right;
+    height: .2rem;
+    line-height: .2rem;
+}
+.detailed-plan-time:before{
+    content: '-';
+}
+.detailed-plan-pathway{
+    height: .02rem;
+    background: #ddd;
+    margin-top: .15rem;
+
+}
+.detailed-plan-full{
+    width: 10%;
+    height: 100%;
+    background: #fff;
+    position: relative;
+}
+.detailed-plan-full:after{
+    content: '';
+    display: block;
+    float: right;
+    width: .12rem;
+    height: .12rem;
+    position: absolute;
+    right: 0;
+    top: -0.06rem;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fff;
+}
+
+.detailed-manage-box{
+    margin-top: .2rem;
+    margin-left: 1.55rem;
+    height: .6rem;
+    display: block;
+}
+.detailed-manage-box li{
+    float: left;
+    font-size: .14rem;
+    padding-left: .25rem;
+    width: 25%;
+    text-align: right;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.detailed-manage-box span{
+    font-family: icon-font;
+    font-size: .18rem;
+}
+section.detailed-about {
+    position: absolute;
+    bottom: .2rem;
+    left: .2rem;
+}
+
+img.detailed-user-header {
+    width: .38rem;
+    height: .38rem;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    float: left;
+}
+
+section.detailed-user-info {
+    margin-left: .45rem;
+    color: #fff;
+    font-size: .14rem;
+    line-height: .2rem;
+}
