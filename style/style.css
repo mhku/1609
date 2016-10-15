@@ -450,5 +450,8 @@ ul{
     padding:0;
 }
 
-
+@font-face {
+    font-family: icon-font;
+    src: url(../res/ttf/iconfont.ttf);
+}
 

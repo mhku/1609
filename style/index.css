@@ -105,8 +105,7 @@ a{
 /*第二部分*/
 .index-block{
     width:100%;
-    min-height: 500px;
-    border:1px solid red;
+
     background:#fff;
     margin-top:20px;
     padding:15px 20px 0;
@@ -125,7 +124,8 @@ a{
     float:right;
 }
 .wenzhang-list{
-    padding:5px;
+    padding: .05rem .2rem .2rem .2rem;
+    overflow: auto;
 }
 .wenzhang-list li{
     float: left;
@@ -141,24 +141,174 @@ a{
     display: inline-block;
     height: 100%;
     padding: 0 .1rem;
+    font-size:16px;
+}
+.wenzhang-list a.show{
+    background: url(../res/jpg/img3.jpg) bottom repeat-x;
 }
 .wenzhang-list li a:hover{
     color:#3169b0;
     background: url(../res/jpg/img3.jpg) bottom repeat-x;
+}
+/*全部详情*/
+.index-all{
+    margin-left: -0.35rem;
+    overflow: auto;
+    padding: 0 .20rem;
+}
+.index-all li{
+    width: 50%;
+    height: 1.16rem;
+    float: left;
+    padding-left: .35rem;
+    padding-bottom: .4rem;
+}
+.index-all-img{
+    float:left;
+    width: 1.14rem;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
 
+}
+.index-all-img:hover .index-all-img-exp{
+    display: block;
+}
+.index-all-img img:hover{
+    /*放大*/
+    /*transform: scale(1.5);*/
+
+
+    transform: rotateY(180deg);
+}
+.index-all-img-exp{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 10;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+.index-all-img img{
+    width:114px;
+    height:76px;
+    transition: 1s;
+}
+.index-all-text{
+    margin-left: 1.24rem;
+    height:100%
+}
+.index-all-text a{
+    font-size:14px;
+    color:#444;
+}
+.index-all-text a:hover{
+    color:#3169b0;
+    text-decoration:underline;
+}
+
+.index-all-exp{
+    height: .64rem;
+    line-height: .24rem;
+}
+
+.index-all-info{
+    font-size: .12rem;
+    line-height: .12rem;
+}
+
+.index-all-info span{
+    float: right;
+    color: #ccc;
+    background: url(../res/png/img8.png) no-repeat;
+    padding-left: 20px;
+}
+.index-more{
+    border-top:1px solid #ccc;
+    text-align: center;
+    line-height: .45rem;
+    color: #3169b0;
+}
+
+.index-help-item{
+    line-height: .24rem;
+    height: .6rem !important;
+    padding-bottom: .1rem !important;
+
+}
+.index-help-item a{
+    display: block;
+    font-size: .14rem;
+}
+.index-help-item span{
+    display: block;
+    color: #cccccc;
+}
+.index-help-list{
+    padding-top: .2rem;
+}
+
+
+section.index-header-search {
+    height: .3rem;
+    vertical-align: middle;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 5rem;
+    background: rgba(238,238,238,0.3);
+    right: 0;
+    top:50%;
+    transform: translateY(-50%) ;
+}
+
+.index-search-box {
+    margin-right: .3rem;
+    height: 100%;
+    padding-left: 10px;
+
+
+}
+
+.index-search-box input {
+    height: 100%;
+    width: .6rem;
+    vertical-align: top;
+    border: 0;
+    background: transparent;
+    transition: .5s linear width;
+}
+.index-search-box input:focus{
+    width: 1rem;
+}
+.index-search-layout{
+    position: relative;
+    width: 2.5rem;
+    float: left;
+    height: 100%;
+}
+
+button.index-search-btn {
+    float: right;
+    height: .3rem;
+    width: .3rem;
+    border: 0;
+    background: url(../res/png/img1.png) no-repeat center center transparent;
+    cursor: pointer;
 }
 
 
 
+.index-login{
+    padding-right: .4rem;
+    float: right;
+    color: #fff;
+    font-size: .2rem;
+    background: url(../res/png/nav-logIn.png) no-repeat 50px center transparent;
+    cursor: pointer;
 
-
-
-
-
-
-
-
-
+}
 
 
 
