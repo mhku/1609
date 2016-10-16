@@ -1,0 +1,439 @@
+html{
+    background:#ccc;
+}
+/*设置样式整体居中*/
+.index-wrapper,#index-advertisement,#index-section{
+    width:11.7rem;
+    margin:0 auto;
+}
+a{
+    color:#444;
+}
+.index-wrapper{
+    height: 100%;
+
+}
+/*导航部分*/
+#index-nav{
+    background:#3169b0;
+    height:.7rem;
+    line-height:.7rem;
+}
+.index-wrapper{
+    height: 100%;
+}
+.index-logo{
+    float:left;
+    height: 100%;
+    width: 1.13rem;
+    background: url(../res/png/logo.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    display: block;
+}
+.index-nav-list{
+    float:left;
+    margin-left:.4rem;
+}
+.index-nav-list li{
+    float:left;
+}
+.index-nav-list li a{
+    font-size:16px;
+    font-weight:bold;
+    color:#fff;
+    padding:0 20px;
+    display:block;
+}
+.index-nav-list li a:hover{
+    background: #285690;
+}
+/*广告部分*/
+#index-advertisement{
+    padding:.3rem 0 .2rem 0;
+}
+/*主体部分*/
+#index-section{
+    border:1px solid #ccc;
+    overflow: auto;
+}
+/*左边部分*/
+#index-main{
+    width:8.45rem;
+    float:left;
+}
+.index-top{
+    width:100%;
+    height:2.9rem;
+}
+/*轮播图部分*/
+.index-carousel{
+    width:4.95rem;
+    height:100%;
+    float:left;
+}
+.index-carousel img{
+    width:4.95rem;
+    height:2.9rem;
+}
+/*热门文章部分*/
+.index-hot{
+    width:3.3rem;
+    height:100%;
+    padding:15px;
+    float:right;
+    background:#fff;
+}
+.index-hot h1{
+    color:#3169B0;
+    font-size:20px;
+    padding-bottom:.1rem;
+    border-bottom:.01rem solid #ccc;
+}
+.index-hot-list li{
+    padding: .1rem 0;
+}
+.index-hot-list li a{
+    font-size:16px;
+    color:#444;
+
+}
+.index-hot li a:hover{
+    color: #3169b0;
+    text-decoration:underline;
+}
+/*第二部分*/
+.index-block{
+    width:100%;
+
+    background:#fff;
+    margin-top:20px;
+    padding:15px 20px 0;
+}
+.wenzhang{
+    height:40px;
+    line-height:40px;
+    border-bottom:1px solid #ccc;
+}
+.wenzhang h2{
+    font-size:20px;
+    color:#3169b0;
+    float:left;
+}
+.wenzhang img{
+    float:right;
+}
+.wenzhang-list{
+    padding: .05rem .2rem .2rem .2rem;
+    overflow: auto;
+}
+.wenzhang-list li{
+    float: left;
+    /* padding: 10px; */
+    height: .36rem;
+    width: 12.5%;
+    line-height: .36rem;
+    font-size: .14rem;
+    text-align: center;
+    white-space: nowrap;
+}
+.wenzhang-list li a{
+    display: inline-block;
+    height: 100%;
+    padding: 0 .1rem;
+    font-size:16px;
+}
+.wenzhang-list a.show{
+    background: url(../res/jpg/img3.jpg) bottom repeat-x;
+}
+.wenzhang-list li a:hover{
+    color:#3169b0;
+    background: url(../res/jpg/img3.jpg) bottom repeat-x;
+}
+/*全部详情*/
+.index-all{
+    margin-left: -0.35rem;
+    overflow: auto;
+    padding: 0 .20rem;
+}
+.index-all li{
+    width: 50%;
+    /*height: 1.16rem;             取消高度自适应*/
+    float: left;
+    padding-left: .35rem;
+    padding-bottom: .4rem;
+}
+.index-all-img{
+    float:left;
+    width: 1.14rem;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+.index-all-img:hover .index-all-img-exp{
+    display: block;
+}
+.index-all-img img:hover{
+    /*放大*/
+    /*transform: scale(1.5);*/
+
+
+    transform: rotateY(180deg);
+}
+.index-all-img-exp{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 10;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+.index-all-img img{
+    width:114px;
+    height:76px;
+    transition: 1s;
+}
+.index-all-text{
+    margin-left: 1.24rem;
+    height:100%
+}
+.index-all-text a{
+    font-size:14px;
+    color:#444;
+}
+.index-all-text a:hover{
+    color:#3169b0;
+    text-decoration:underline;
+}
+
+.index-all-exp{
+    height: .64rem;
+    line-height: .24rem;
+}
+
+.index-all-info{
+    font-size: .12rem;
+    line-height: .12rem;
+}
+
+.index-all-info span{
+    float: right;
+    color: #ccc;
+    background: url(../res/png/img8.png) no-repeat;
+    padding-left: 20px;
+}
+.index-more{
+    border-top:1px solid #ccc;
+    text-align: center;
+    line-height: .45rem;
+    color: #3169b0;
+}
+
+.index-help-item{
+    line-height: .24rem;
+    /*height: .6rem !important;*/
+    padding-bottom: .1rem !important;
+}
+.index-help-item a{
+    display: block;
+    font-size: .14rem;
+}
+.index-help-item span{
+    display: block;
+    color: #cccccc;
+}
+.index-help-list{
+    padding-top: .2rem;
+}
+
+
+section.index-header-search {
+    height: .3rem;
+    vertical-align: middle;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 5rem;
+    background: rgba(238,238,238,0.3);
+    right: 0;
+    top:50%;
+    transform: translateY(-50%) ;
+}
+
+.index-search-box {
+    margin-right: .3rem;
+    height: 100%;
+    padding-left: 10px;
+
+
+}
+
+.index-search-box input {
+    height: 100%;
+    width: .6rem;
+    vertical-align: top;
+    border: 0;
+    background: transparent;
+    transition: .5s linear width;
+}
+.index-search-box input:focus{
+    width: 1rem;
+}
+.index-search-layout{
+    position: relative;
+    width: 2.5rem;
+    float: left;
+    height: 100%;
+}
+
+button.index-search-btn {
+    float: right;
+    height: .3rem;
+    width: .3rem;
+    border: 0;
+    background: url(../res/png/img1.png) no-repeat center center transparent;
+    cursor: pointer;
+}
+
+
+
+.index-login{
+    padding-right: .4rem;
+    float: right;
+    color: #fff;
+    font-size: .2rem;
+    background: url(../res/png/nav-logIn.png) no-repeat 50px center transparent;
+    cursor: pointer;
+
+}
+/*做测试*/
+.index-all li.index-test{
+    width:33.3%;
+}
+.index-test span{
+    background: url("../res/png/img14.png") no-repeat 0 center;
+    padding-left:20px;
+}
+
+
+
+/*右边部分*/
+#index-aside{
+    /*border:1px solid yellow;*/
+
+    width:2.95rem;
+    float:right;
+}
+.index-btn{
+    width: 88px;
+    height: 30px;
+    background: #6493cd;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    display: inline;
+    font-size: 14px;
+    font-weight: 400;
+    float: right;
+    margin: 20px;
+}
+.padding {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.index-user {
+    background: #eee;
+}
+.index-data li {
+    float: left;
+    width: 25%;
+    line-height: 25px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+.index-data {
+    overflow: auto;
+    padding-top: 10px;
+}
+.index-specialist-title{
+    border-bottom: 1px solid #ccc;
+    background: url(../res/jpg/img3.jpg) bottom repeat-x;
+    color: #3169b0;
+    display: inline-block;
+    padding: 5px .1rem;
+    font-size: .16rem;
+}
+.index-specialist-list{
+    border-top: 1px solid #eee;
+
+}
+
+.index-specialist-list li{
+    margin-top: .2rem;
+}
+.index-specialist-img {
+    float: left;
+    width: .5rem;
+    height: .5rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.index-specialist-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.index-specialist-exp {
+    margin-left: .6rem;
+}
+
+.index-specialist-name {
+    font-size: .14rem;
+
+    color: #1974C1;
+    display: block;
+}
+
+.index-specialist-info {
+    padding: .1rem 0;
+    color: #999;
+    line-height: .16rem;
+}
+
+.index-specialist-addr {
+    color: #ddd;
+}
+
+
+
+
+
+
+
+/*底部*/
+#footer {
+    background: #fff;
+    margin-top: .3rem;
+    text-align: center;
+    padding-bottom:.8rem;
+}
+.footer-nav{
+    height:50px;
+    line-height:50px;
+    display: inline-block;
+}
+.footer-nav li{
+    float: left;
+    padding-left:20px;
+}
+.footer-burder{
+    border-bottom:1px #e6e6e6 dashed;
+}

@@ -423,8 +423,6 @@ textarea {
 
 
 
-
-
 html{
     font-size: 625%;
 }
@@ -432,7 +430,6 @@ html,body{
     height: 100%;
     width: 100%;
     margin: 0;
-    overflow: hidden;
     display: block;
 }
 body{
@@ -453,5 +450,8 @@ ul{
     padding:0;
 }
 
-
+@font-face {
+    font-family: icon-font;
+    src: url(../res/ttf/iconfont.ttf);
+}
 
